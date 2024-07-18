@@ -1,0 +1,71 @@
+.profileWrapper {
+    width: 40%;
+    background-color: #fff;
+    border: 2px solid #303030;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    overflow: hidden;
+}
+
+.profileWrapper div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileWrapper img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10%;
+    border-radius: 100%;
+    background-color: #303030;
+}
+
+.profileWrapper div p {
+    color: darkgrey;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.profileWrapper div p:nth-child(2) {
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.profileWrapper ul {
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.profileWrapper ul li {
+    width: 100%;
+    padding: 2% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top:2px solid #5c5c5c;
+    border-right: 2px solid #5c5c5c;
+    background-color: #d3d3d3;
+}
+
+.profileWrapper ul li:last-child {
+    border-right: none;
+}
+
+.profileWrapper ul li span { 
+    color: #000;
+}
+
+.profileWrapper ul li span:last-child {
+    font-weight: 600;
+}
